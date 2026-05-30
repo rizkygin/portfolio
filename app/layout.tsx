@@ -10,8 +10,15 @@ export const metadata: Metadata = {
     'Portfolio of Rizky, a Full Stack Developer and Mobile Apps Engineer specializing in web and mobile applications.',
   openGraph: {
     title: 'Rizky — Full Stack Developer & Mobile Apps Engineer',
-    description: 'Building high-quality web and mobile experiences.',
+    description: 'Full Stack Developer · Mobile Apps Engineer · AI Agent Builder · Illustrator',
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Rizky — Full Stack Developer & Mobile Apps Engineer',
+    description: 'Full Stack Developer · Mobile Apps Engineer · AI Agent Builder · Illustrator',
+    images: ['/opengraph-image'],
   },
 }
 
